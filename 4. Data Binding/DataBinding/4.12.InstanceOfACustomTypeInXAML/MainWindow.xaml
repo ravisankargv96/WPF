@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="250" Width="400">
     <Window.Resources>
-        <local:Person x:Key="Tom" Name="Tom" Age="9"/>
+        <local:Person x:Key="Tom"/>
     </Window.Resources>
     <Grid x:Name="grid" DataContext="{StaticResource Tom}">
         <Grid.ColumnDefinitions>

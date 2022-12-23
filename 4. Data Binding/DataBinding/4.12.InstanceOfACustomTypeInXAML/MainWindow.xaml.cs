@@ -22,7 +22,6 @@ namespace InstanceOfACustomTypeInXAML
     public partial class MainWindow : Window
     {
 
-        //Person person = new Person("Tom", 9);
         public MainWindow()
         {
             InitializeComponent();
