@@ -6,9 +6,11 @@
         xmlns:local="clr-namespace:InstanceOfACustomTypeInXAML"
         mc:Ignorable="d"
         Title="MainWindow" Height="250" Width="400">
+    
     <Window.Resources>
-        <local:Person x:Key="Tom"/>
+        <local:Person x:Key="Tom" Name="Tom" Age="9" PropertyChanged="person_PropertyChanged"/>
     </Window.Resources>
+    
     <Grid x:Name="grid" DataContext="{StaticResource Tom}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>

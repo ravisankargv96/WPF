@@ -21,15 +21,16 @@ namespace InstanceOfACustomTypeInXAML
     /// </summary>
     public partial class MainWindow : Window
     {
-
         public MainWindow()
         {
             InitializeComponent();
 
             this.birthdayButton.Click += birthdayButton_Click;
-
         }
 
+        void person_PropertyChanged(object sender, PropertyChangedEventArgs e) { 
+
+        }
         
         void birthdayButton_Click(object sender, RoutedEventArgs e)
         {
